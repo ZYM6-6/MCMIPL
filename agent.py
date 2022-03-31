@@ -55,7 +55,7 @@ class Agent(object):
                         math.exp(-1. * self.steps_done / self.EPS_DECAY)
         self.steps_done += 1
         if sample > eps_threshold:
-            if is_test and (len(action_space[1]) <= 40 or is_last_turn):
+            if is_test and (len(action_space[1]) <= 20 or is_last_turn):
                 return torch.tensor(action_space[1][0], device=self.device, dtype=torch.long), action_space[1],state_emb
             with torch.no_grad():
                 actions_value = self.policy_net(state_emb, cand_emb)
