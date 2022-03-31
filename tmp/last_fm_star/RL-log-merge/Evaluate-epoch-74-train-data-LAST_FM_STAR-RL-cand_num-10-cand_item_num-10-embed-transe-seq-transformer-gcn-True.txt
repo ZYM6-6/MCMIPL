@@ -1,0 +1,28 @@
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.33925
+Testing SR@10: 0.74475
+Testing SR@15: 0.80625
+Testing Avg@T: 7.795
+Testing hDCG: 0.3264684865872164
+Testing time: 2869.773231983185
+================================
+Training epocch:74
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.07275000000000001
+Testing SR-turn@2: 0.12575
+Testing SR-turn@3: 0.18625
+Testing SR-turn@4: 0.251
+Testing SR-turn@5: 0.33925
+Testing SR-turn@6: 0.43725
+Testing SR-turn@7: 0.5405
+Testing SR-turn@8: 0.63975
+Testing SR-turn@9: 0.7032499999999999
+Testing SR-turn@10: 0.74475
+Testing SR-turn@11: 0.7722500000000001
+Testing SR-turn@12: 0.7865
+Testing SR-turn@13: 0.7995
+Testing SR-turn@14: 0.80625
+================================

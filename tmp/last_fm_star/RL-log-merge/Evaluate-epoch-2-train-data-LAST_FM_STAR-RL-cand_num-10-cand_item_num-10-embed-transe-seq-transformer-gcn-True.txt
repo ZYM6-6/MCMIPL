@@ -1,0 +1,573 @@
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.42650000000000005
+Testing SR@10: 0.6540000000000001
+Testing SR@15: 0.755
+Testing Avg@T: 7.825
+Testing hDCG: 0.34634846732442415
+Testing time: 6451.730226993561
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.13774999999999998
+Testing SR-turn@2: 0.20949999999999996
+Testing SR-turn@3: 0.28550000000000003
+Testing SR-turn@4: 0.36025
+Testing SR-turn@5: 0.42650000000000005
+Testing SR-turn@6: 0.48025
+Testing SR-turn@7: 0.5362500000000001
+Testing SR-turn@8: 0.5827500000000001
+Testing SR-turn@9: 0.62225
+Testing SR-turn@10: 0.6540000000000001
+Testing SR-turn@11: 0.68225
+Testing SR-turn@12: 0.71075
+Testing SR-turn@13: 0.732
+Testing SR-turn@14: 0.755
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.5167499999999999
+Testing SR@10: 0.788
+Testing SR@15: 0.8714999999999999
+Testing Avg@T: 6.5155
+Testing hDCG: 0.3898651318145669
+Testing time: 2636.4682025909424
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.1115
+Testing SR-turn@2: 0.21725
+Testing SR-turn@3: 0.3255
+Testing SR-turn@4: 0.4245
+Testing SR-turn@5: 0.5167499999999999
+Testing SR-turn@6: 0.587
+Testing SR-turn@7: 0.6605000000000001
+Testing SR-turn@8: 0.7135
+Testing SR-turn@9: 0.75075
+Testing SR-turn@10: 0.788
+Testing SR-turn@11: 0.8195
+Testing SR-turn@12: 0.8412499999999999
+Testing SR-turn@13: 0.857
+Testing SR-turn@14: 0.8714999999999999
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.45725
+Testing SR@10: 0.7425
+Testing SR@15: 0.8487499999999999
+Testing Avg@T: 7.0527500000000005
+Testing hDCG: 0.37937760933752024
+Testing time: 3647.55894446373
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.131
+Testing SR-turn@2: 0.22075
+Testing SR-turn@3: 0.30675
+Testing SR-turn@4: 0.387
+Testing SR-turn@5: 0.45725
+Testing SR-turn@6: 0.5245
+Testing SR-turn@7: 0.5822499999999999
+Testing SR-turn@8: 0.6405
+Testing SR-turn@9: 0.6945
+Testing SR-turn@10: 0.7425
+Testing SR-turn@11: 0.7772499999999999
+Testing SR-turn@12: 0.806
+Testing SR-turn@13: 0.8282499999999999
+Testing SR-turn@14: 0.8487499999999999
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.45875000000000005
+Testing SR@10: 0.72725
+Testing SR@15: 0.83525
+Testing Avg@T: 7.1405
+Testing hDCG: 0.37362327308573356
+Testing time: 4174.104592323303
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.125
+Testing SR-turn@2: 0.2145
+Testing SR-turn@3: 0.29425
+Testing SR-turn@4: 0.38525
+Testing SR-turn@5: 0.45875000000000005
+Testing SR-turn@6: 0.52825
+Testing SR-turn@7: 0.58925
+Testing SR-turn@8: 0.64025
+Testing SR-turn@9: 0.6839999999999999
+Testing SR-turn@10: 0.72725
+Testing SR-turn@11: 0.7657499999999999
+Testing SR-turn@12: 0.79475
+Testing SR-turn@13: 0.817
+Testing SR-turn@14: 0.83525
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.45725
+Testing SR@10: 0.7425
+Testing SR@15: 0.8487499999999999
+Testing Avg@T: 7.0527500000000005
+Testing hDCG: 0.37937760933752024
+Testing time: 4088.423765897751
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.131
+Testing SR-turn@2: 0.22075
+Testing SR-turn@3: 0.30675
+Testing SR-turn@4: 0.387
+Testing SR-turn@5: 0.45725
+Testing SR-turn@6: 0.5245
+Testing SR-turn@7: 0.5822499999999999
+Testing SR-turn@8: 0.6405
+Testing SR-turn@9: 0.6945
+Testing SR-turn@10: 0.7425
+Testing SR-turn@11: 0.7772499999999999
+Testing SR-turn@12: 0.806
+Testing SR-turn@13: 0.8282499999999999
+Testing SR-turn@14: 0.8487499999999999
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.42400000000000004
+Testing SR@10: 0.70925
+Testing SR@15: 0.828
+Testing Avg@T: 7.40275
+Testing hDCG: 0.36369080089001793
+Testing time: 3634.9006514549255
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.11949999999999998
+Testing SR-turn@2: 0.20274999999999999
+Testing SR-turn@3: 0.28125
+Testing SR-turn@4: 0.35525
+Testing SR-turn@5: 0.42400000000000004
+Testing SR-turn@6: 0.49350000000000005
+Testing SR-turn@7: 0.56125
+Testing SR-turn@8: 0.6185
+Testing SR-turn@9: 0.66625
+Testing SR-turn@10: 0.70925
+Testing SR-turn@11: 0.75075
+Testing SR-turn@12: 0.78
+Testing SR-turn@13: 0.807
+Testing SR-turn@14: 0.828
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.41974999999999996
+Testing SR@10: 0.7384999999999999
+Testing SR@15: 0.8234999999999999
+Testing Avg@T: 7.352500000000001
+Testing hDCG: 0.3470008929444298
+Testing time: 3193.3236939907074
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.08375
+Testing SR-turn@2: 0.16475
+Testing SR-turn@3: 0.2435
+Testing SR-turn@4: 0.3325
+Testing SR-turn@5: 0.41974999999999996
+Testing SR-turn@6: 0.5167499999999999
+Testing SR-turn@7: 0.594
+Testing SR-turn@8: 0.6567500000000001
+Testing SR-turn@9: 0.7045
+Testing SR-turn@10: 0.7384999999999999
+Testing SR-turn@11: 0.76925
+Testing SR-turn@12: 0.7907499999999998
+Testing SR-turn@13: 0.8092500000000001
+Testing SR-turn@14: 0.8234999999999999
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.398
+Testing SR@10: 0.68775
+Testing SR@15: 0.81225
+Testing Avg@T: 7.74225
+Testing hDCG: 0.34369717428765567
+Testing time: 4427.5506756305695
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.096
+Testing SR-turn@2: 0.1845
+Testing SR-turn@3: 0.254
+Testing SR-turn@4: 0.329
+Testing SR-turn@5: 0.398
+Testing SR-turn@6: 0.46525
+Testing SR-turn@7: 0.52275
+Testing SR-turn@8: 0.5875
+Testing SR-turn@9: 0.64175
+Testing SR-turn@10: 0.68775
+Testing SR-turn@11: 0.72675
+Testing SR-turn@12: 0.7612499999999999
+Testing SR-turn@13: 0.791
+Testing SR-turn@14: 0.81225
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.39974999999999994
+Testing SR@10: 0.711
+Testing SR@15: 0.819
+Testing Avg@T: 7.63775
+Testing hDCG: 0.3407534300230436
+Testing time: 4056.4985539913177
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.08125
+Testing SR-turn@2: 0.15950000000000003
+Testing SR-turn@3: 0.24525000000000002
+Testing SR-turn@4: 0.31850000000000006
+Testing SR-turn@5: 0.39974999999999994
+Testing SR-turn@6: 0.47124999999999995
+Testing SR-turn@7: 0.54925
+Testing SR-turn@8: 0.613
+Testing SR-turn@9: 0.6637500000000001
+Testing SR-turn@10: 0.711
+Testing SR-turn@11: 0.75025
+Testing SR-turn@12: 0.78075
+Testing SR-turn@13: 0.7997500000000001
+Testing SR-turn@14: 0.819
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.41974999999999996
+Testing SR@10: 0.732
+Testing SR@15: 0.82
+Testing Avg@T: 7.4535
+Testing hDCG: 0.34584383458803114
+Testing time: 3578.028691291809
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.08425
+Testing SR-turn@2: 0.16324999999999998
+Testing SR-turn@3: 0.24699999999999997
+Testing SR-turn@4: 0.33425
+Testing SR-turn@5: 0.41974999999999996
+Testing SR-turn@6: 0.4977500000000001
+Testing SR-turn@7: 0.57275
+Testing SR-turn@8: 0.6355000000000001
+Testing SR-turn@9: 0.68875
+Testing SR-turn@10: 0.732
+Testing SR-turn@11: 0.7627499999999999
+Testing SR-turn@12: 0.782
+Testing SR-turn@13: 0.8065000000000001
+Testing SR-turn@14: 0.82
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.39974999999999994
+Testing SR@10: 0.711
+Testing SR@15: 0.819
+Testing Avg@T: 7.63775
+Testing hDCG: 0.3407534300230436
+Testing time: 5691.038098573685
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.08125
+Testing SR-turn@2: 0.15950000000000003
+Testing SR-turn@3: 0.24525000000000002
+Testing SR-turn@4: 0.31850000000000006
+Testing SR-turn@5: 0.39974999999999994
+Testing SR-turn@6: 0.47124999999999995
+Testing SR-turn@7: 0.54925
+Testing SR-turn@8: 0.613
+Testing SR-turn@9: 0.6637500000000001
+Testing SR-turn@10: 0.711
+Testing SR-turn@11: 0.75025
+Testing SR-turn@12: 0.78075
+Testing SR-turn@13: 0.7997500000000001
+Testing SR-turn@14: 0.819
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.4262499999999999
+Testing SR@10: 0.69625
+Testing SR@15: 0.797
+Testing Avg@T: 7.615
+Testing hDCG: 0.34029344311123466
+Testing time: 4935.004455804825
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.08575
+Testing SR-turn@2: 0.17125
+Testing SR-turn@3: 0.26675
+Testing SR-turn@4: 0.35774999999999996
+Testing SR-turn@5: 0.4262499999999999
+Testing SR-turn@6: 0.496
+Testing SR-turn@7: 0.5575
+Testing SR-turn@8: 0.61075
+Testing SR-turn@9: 0.6577500000000001
+Testing SR-turn@10: 0.69625
+Testing SR-turn@11: 0.72825
+Testing SR-turn@12: 0.75825
+Testing SR-turn@13: 0.7755
+Testing SR-turn@14: 0.797
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.437
+Testing SR@10: 0.68225
+Testing SR@15: 0.78175
+Testing Avg@T: 7.66075
+Testing hDCG: 0.3396875284903599
+Testing time: 5942.6187517642975
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.08950000000000001
+Testing SR-turn@2: 0.18725
+Testing SR-turn@3: 0.275
+Testing SR-turn@4: 0.36674999999999996
+Testing SR-turn@5: 0.437
+Testing SR-turn@6: 0.50075
+Testing SR-turn@7: 0.55125
+Testing SR-turn@8: 0.60275
+Testing SR-turn@9: 0.64175
+Testing SR-turn@10: 0.68225
+Testing SR-turn@11: 0.71375
+Testing SR-turn@12: 0.744
+Testing SR-turn@13: 0.7655000000000001
+Testing SR-turn@14: 0.78175
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.437
+Testing SR@10: 0.68225
+Testing SR@15: 0.78175
+Testing Avg@T: 7.66075
+Testing hDCG: 0.3396875284903599
+Testing time: 6323.452795267105
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.08950000000000001
+Testing SR-turn@2: 0.18725
+Testing SR-turn@3: 0.275
+Testing SR-turn@4: 0.36674999999999996
+Testing SR-turn@5: 0.437
+Testing SR-turn@6: 0.50075
+Testing SR-turn@7: 0.55125
+Testing SR-turn@8: 0.60275
+Testing SR-turn@9: 0.64175
+Testing SR-turn@10: 0.68225
+Testing SR-turn@11: 0.71375
+Testing SR-turn@12: 0.744
+Testing SR-turn@13: 0.7655000000000001
+Testing SR-turn@14: 0.78175
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.45175
+Testing SR@10: 0.655
+Testing SR@15: 0.74975
+Testing Avg@T: 7.7015
+Testing hDCG: 0.3481419247108382
+Testing time: 7097.9668345451355
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.12050000000000001
+Testing SR-turn@2: 0.22475
+Testing SR-turn@3: 0.31399999999999995
+Testing SR-turn@4: 0.38925
+Testing SR-turn@5: 0.45175
+Testing SR-turn@6: 0.50625
+Testing SR-turn@7: 0.549
+Testing SR-turn@8: 0.58925
+Testing SR-turn@9: 0.62425
+Testing SR-turn@10: 0.655
+Testing SR-turn@11: 0.68225
+Testing SR-turn@12: 0.71
+Testing SR-turn@13: 0.7325
+Testing SR-turn@14: 0.74975
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.3555
+Testing SR@10: 0.5799999999999998
+Testing SR@15: 0.6855
+Testing Avg@T: 8.8315
+Testing hDCG: 0.2881641891692207
+Testing time: 8227.004369974136
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.06949999999999999
+Testing SR-turn@2: 0.14900000000000002
+Testing SR-turn@3: 0.22199999999999998
+Testing SR-turn@4: 0.294
+Testing SR-turn@5: 0.3555
+Testing SR-turn@6: 0.41475
+Testing SR-turn@7: 0.45899999999999996
+Testing SR-turn@8: 0.4965
+Testing SR-turn@9: 0.538
+Testing SR-turn@10: 0.5799999999999998
+Testing SR-turn@11: 0.6055
+Testing SR-turn@12: 0.6365000000000001
+Testing SR-turn@13: 0.66275
+Testing SR-turn@14: 0.6855
+================================
+===========Test===============
+Testing 3999 user tuples
+Testing SR@5: 0.4425
+Testing SR@10: 0.654
+Testing SR@15: 0.74225
+Testing Avg@T: 7.7555000000000005
+Testing hDCG: 0.3462612771373347
+Testing time: 7044.048393011093
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 3999 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.1255
+Testing SR-turn@2: 0.22125
+Testing SR-turn@3: 0.308
+Testing SR-turn@4: 0.38425000000000004
+Testing SR-turn@5: 0.4425
+Testing SR-turn@6: 0.49800000000000005
+Testing SR-turn@7: 0.5442500000000001
+Testing SR-turn@8: 0.58475
+Testing SR-turn@9: 0.6255
+Testing SR-turn@10: 0.654
+Testing SR-turn@11: 0.68125
+Testing SR-turn@12: 0.70475
+Testing SR-turn@13: 0.7282500000000001
+Testing SR-turn@14: 0.74225
+================================
+===========Test===============
+Testing 499 user tuples
+Testing SR@5: 0.454
+Testing SR@10: 0.722
+Testing SR@15: 0.776
+Testing Avg@T: 7.534000000000001
+Testing hDCG: 0.3228496979501637
+Testing time: 615.7094125747681
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 499 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.048
+Testing SR-turn@2: 0.148
+Testing SR-turn@3: 0.25
+Testing SR-turn@4: 0.36000000000000004
+Testing SR-turn@5: 0.454
+Testing SR-turn@6: 0.518
+Testing SR-turn@7: 0.588
+Testing SR-turn@8: 0.6499999999999999
+Testing SR-turn@9: 0.692
+Testing SR-turn@10: 0.722
+Testing SR-turn@11: 0.736
+Testing SR-turn@12: 0.756
+Testing SR-turn@13: 0.768
+Testing SR-turn@14: 0.776
+================================
+===========Test===============
+Testing 499 user tuples
+Testing SR@5: 0.40599999999999997
+Testing SR@10: 0.666
+Testing SR@15: 0.756
+Testing Avg@T: 7.9719999999999995
+Testing hDCG: 0.3153164518978248
+Testing time: 835.2855467796326
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 499 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.07400000000000001
+Testing SR-turn@2: 0.12200000000000003
+Testing SR-turn@3: 0.23199999999999998
+Testing SR-turn@4: 0.34199999999999997
+Testing SR-turn@5: 0.40599999999999997
+Testing SR-turn@6: 0.492
+Testing SR-turn@7: 0.542
+Testing SR-turn@8: 0.6
+Testing SR-turn@9: 0.63
+Testing SR-turn@10: 0.666
+Testing SR-turn@11: 0.7019999999999998
+Testing SR-turn@12: 0.724
+Testing SR-turn@13: 0.74
+Testing SR-turn@14: 0.756
+================================
+===========Test===============
+Testing 499 user tuples
+Testing SR@5: 0.4
+Testing SR@10: 0.644
+Testing SR@15: 0.73
+Testing Avg@T: 8.266
+Testing hDCG: 0.31371596301983173
+Testing time: 1064.3427362442017
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 499 user tuples
+Testing SR-turn@0: 0.0
+Testing SR-turn@1: 0.082
+Testing SR-turn@2: 0.176
+Testing SR-turn@3: 0.24
+Testing SR-turn@4: 0.324
+Testing SR-turn@5: 0.4
+Testing SR-turn@6: 0.438
+Testing SR-turn@7: 0.48600000000000004
+Testing SR-turn@8: 0.546
+Testing SR-turn@9: 0.592
+Testing SR-turn@10: 0.644
+Testing SR-turn@11: 0.67
+Testing SR-turn@12: 0.698
+Testing SR-turn@13: 0.708
+Testing SR-turn@14: 0.73
+================================
+===========Test===============
+Testing 499 user tuples
+Testing SR@5: 0.43200000000000005
+Testing SR@10: 0.72
+Testing SR@15: 0.85
+Testing Avg@T: 7.378
+Testing hDCG: 0.35329780112495734
+Testing time: 747.5688955783844
+================================
+Training epocch:2
+===========Test Turn===============
+Testing 499 user tuples
+================================
