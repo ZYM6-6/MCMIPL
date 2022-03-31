@@ -1,6 +1,6 @@
 # MCMIPL
 
-The implementation of _Multi-Choice Questions based Multi-Interest Policy Learning for Conversational Recommendation_ (WWW 2022). 
+The implementation of _Multiple Choice Questions based Multi-Interest Policy Learning for Conversational Recommendation_ (WWW 2022). 
 
 The code is partially referred to https://github.com/dengyang17/unicorn and https://cpr-conv-rec.github.io/.
 
