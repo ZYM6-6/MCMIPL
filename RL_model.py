@@ -86,7 +86,6 @@ def train(args, kg, dataset, filename):
                 reward = torch.tensor([reward], device=args.device, dtype=torch.float)
                 if done:
                     next_state = None
-
                 # agent.memory.push(state, action, next_state, reward, next_cand,torch.cosine_similarity(state_emb[0],state_emb[1],dim=2))
                 agent.memory.push(state, action, next_state, reward, next_cand)
                 state = next_state
@@ -143,9 +142,9 @@ def main():
     parser.add_argument('--learning_rate', type=float, default=1e-4, help='learning rate.')
     parser.add_argument('--l2_norm', type=float, default=1e-6, help='l2 regularization.')
     parser.add_argument('--hidden', type=int, default=100, help='number of samples')
-    parser.add_argument('--memory_size', type=int, default=300, help='size of memory ')
+    parser.add_argument('--memory_size', type=int, default=5000, help='size of memory ')
 
-    parser.add_argument('--data_name', type=str, default=YELP_STAR, choices=[ LAST_FM_STAR, YELP_STAR,BOOK],
+    parser.add_argument('--data_name', type=str, default=YELP_STAR, choices=[ LAST_FM_STAR, YELP_STAR],
                         help='One of { LAST_FM_STAR, YELP_STAR, BOOK}.')
     parser.add_argument('--entropy_method', type=str, default='match', help='entropy_method is one of {entropy, weight entropy,match}')
     # Although the performance of 'weighted entropy' is better, 'entropy' is an alternative method considering the time cost.
@@ -164,6 +163,8 @@ def main():
     parser.add_argument('--save_num', type=int, default=10, help='the number of steps to save RL model and metric')
     parser.add_argument('--cand_num', type=int, default=10, help='candidate sampling number')
     parser.add_argument('--cand_item_num', type=int, default=10, help='candidate item sampling number')
+
+    parser.add_argument('--fea_score', type=str, default='entropy', help='feature score')
     parser.add_argument('--fix_emb', action='store_false', help='fix embedding or not')
     parser.add_argument('--embed', type=str, default='transe', help='pretrained embeddings')
     parser.add_argument('--seq', type=str, default='transformer', choices=['rnn', 'transformer', 'mean'], help='sequential learning method')

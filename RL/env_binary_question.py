@@ -13,7 +13,7 @@ target_num=3
 
 
 class BinaryRecommendEnv(object):
-    def __init__(self, kg, dataset, data_name, embed, seed=1, max_turn=15, cand_num=10, cand_item_num=10, attr_num=20, mode='train', ask_num=1, entropy_way='weight entropy', fm_epoch=0,choice_num=2):
+    def __init__(self, kg, dataset, data_name, embed, seed=1, max_turn=15, cand_num=10, cand_item_num=10, attr_num=20, mode='train', ask_num=1, entropy_way='weight entropy', fm_epoch=0,choice_num=2,fea_score="entropy"):
         self.data_name = data_name
         self.mode = mode
         self.seed = seed
@@ -29,6 +29,7 @@ class BinaryRecommendEnv(object):
         self.small_feature_to_large={} # key: small ; value: large
         self.get_feature_dict()
         self.choice_num=choice_num
+        self.fea_score=fea_score #[entopy, embedding]
         # action parameters
         self.ask_num = ask_num
         self.rec_num = 10
@@ -83,7 +84,7 @@ class BinaryRecommendEnv(object):
         #     'feature_emb': feature_emb
         # }
         # load fm epoch
-        self.get_sameatt_items()
+        # self.get_sameatt_items()
         embeds = load_embed(data_name, embed, epoch=fm_epoch)
         # ipdb.set_trace()
         if len(embeds)!=0:
@@ -430,21 +431,36 @@ class BinaryRecommendEnv(object):
         self.item_feature_pair = reachable_item_feature_pair
 
     def _feature_score(self):
+        
         reach_fea_score = []
-        for feature_id in self.reachable_feature:
-            '''
-            score = self.attr_ent[feature_id]
-            reach_fea_score.append(score)
-            '''
-            feature_embed = self.feature_emb[feature_id]
-            score = 0
-            score += np.inner(np.array(self.user_embed), feature_embed)
-            prefer_embed = self.feature_emb[self.user_acc_feature, :]  #np.array (x*64)
-            for i in range(len(self.user_acc_feature)):
-                score += np.inner(prefer_embed[i], feature_embed)
-            if feature_id in self.user_rej_feature:
-                score -= self.sigmoid([feature_embed, feature_embed])[0]
-            reach_fea_score.append(score)
+        if self.fea_score=="entropy":
+            for feature_id in self.reachable_feature:
+                '''
+                score = self.attr_ent[feature_id]
+                reach_fea_score.append(score)
+                '''
+                feature_embed = self.feature_emb[feature_id]
+                score = 0
+                score += np.inner(np.array(self.user_embed), feature_embed)
+                prefer_embed = self.feature_emb[self.user_acc_feature, :]  #np.array (x*64)
+                for i in range(len(self.user_acc_feature)):
+                    score += np.inner(prefer_embed[i], feature_embed)
+                if feature_id in self.user_rej_feature:
+                    score -= self.sigmoid([feature_embed, feature_embed])[0]
+                reach_fea_score.append(score)
+        else:
+            for feature_id in self.reachable_feature:
+                fea_embed = self.feature_emb[feature_id]
+                score = 0
+                score += np.inner(np.array(self.user_embed), fea_embed)
+                prefer_embed = self.feature_emb[self.user_acc_feature, :]  #np.array (x*64)
+                rej_embed = self.feature_emb[self.user_rej_feature, :]  #np.array (x*64)
+                for i in range(len(self.user_acc_feature)):
+                    score += np.inner(prefer_embed[i], fea_embed)
+                for i in range(len(self.user_rej_feature)):
+                    score -= self.sigmoid([np.inner(rej_embed[i], fea_embed)])
+                    #score -= np.inner(unprefer_embed[i], item_embed)
+                reach_fea_score.append(score)
             
         return reach_fea_score
 
