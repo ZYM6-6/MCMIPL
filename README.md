@@ -6,7 +6,9 @@ The code is partially referred to https://github.com/dengyang17/unicorn and http
 
 # Environment Settings
 python: 3.7.9
+
 pytorch: 1.7.1 
+
 dgl: 0.6.0
 ## Training
 `python RL_model.py --data_name <data_name>`
