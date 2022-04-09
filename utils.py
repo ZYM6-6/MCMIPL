@@ -8,14 +8,16 @@ import dgl
 import json
 LAST_FM_STAR = 'LAST_FM_STAR'
 YELP_STAR = 'YELP_STAR'
-
+BOOK = 'BOOK'
 DATA_DIR = {
     LAST_FM_STAR: './data/lastfm_star',
     YELP_STAR: './data/yelp_star',
+    BOOK: './data/book',
 }
 TMP_DIR = {
     LAST_FM_STAR: './tmp/last_fm_star',
     YELP_STAR: './tmp/yelp_star',
+    BOOK: './tmp/book',
 }
 def cuda_(var):
     return var.cuda() if torch.cuda.is_available() else var

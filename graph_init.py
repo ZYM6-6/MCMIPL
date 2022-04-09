@@ -6,25 +6,32 @@ from Graph_generate.lastfm_star_data_process import LastFmStarDataset
 from Graph_generate.lastfm_graph import LastFmGraph
 from Graph_generate.yelp_data_process import YelpDataset
 from Graph_generate.yelp_graph import YelpGraph
-
+from Graph_generate.book_data_process import BookDataset
+from Graph_generate.book_graph import BookGraph
+DatasetDict = {
+    LAST_FM_STAR: LastFmStarDataset,
+    YELP_STAR: YelpDataset,
+    BOOK: BookDataset,
+}
+GraphDict = {
+    LAST_FM_STAR: LastFmGraph,
+    YELP_STAR: YelpGraph,
+    BOOK: BookGraph,
+}
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_name', type=str, default=LAST_FM, choices=[LAST_FM, LAST_FM_STAR, YELP, YELP_STAR],
-                        help='One of {LAST_FM, LAST_FM_STAR, YELP, YELP_STAR}.')
+    parser.add_argument('--data_name', type=str, default=BOOK, choices=[LAST_FM_STAR, YELP_STAR,BOOK],
+                        help='One of {LAST_FM_STAR, BOOK, YELP_STAR}.')
+    
     args = parser.parse_args()
-    DatasetDict = {
-        LAST_FM: LastFmDataset,
-        LAST_FM_STAR: LastFmStarDataset,
-        YELP: YelpDataset,
-        YELP_STAR: YelpDataset,
-    }
-    GraphDict = {
-        LAST_FM: LastFmGraph,
-        LAST_FM_STAR: LastFmGraph,
-        YELP: YelpGraph,
-        YELP_STAR: YelpGraph,
-    }
-
+    
+    if args.data_name=='BOOK':
+        kg=BookGraph()
+        with open('./tmp/book/kg.pkl','wb') as f:   
+            pickle.dump(kg,f)
+        dataset = DatasetDict[args.data_name]()
+        save_dataset(args.data_name, dataset)
+        return
     # Create 'data_name' instance for data_name.
     print('Load', args.data_name, 'from file...')
     print(TMP_DIR[args.data_name])
