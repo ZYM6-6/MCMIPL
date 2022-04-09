@@ -6,11 +6,12 @@ import torch
 import math
 from collections import namedtuple
 from utils import *
-from RL.env_binary_question import BinaryRecommendEnv
+from RL.env_multi_choice_question import MultiChoiceRecommendEnv
 from tqdm import tqdm
 EnvDict = {
-        LAST_FM_STAR: BinaryRecommendEnv,
-        YELP_STAR: BinaryRecommendEnv
+        LAST_FM_STAR: MultiChoiceRecommendEnv,
+        YELP_STAR: MultiChoiceRecommendEnv,
+        BOOK:MultiChoiceRecommendEnv
     }
 
 def dqn_evaluate(args, kg, dataset, agent, filename, i_episode):

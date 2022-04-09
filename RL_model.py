@@ -14,7 +14,7 @@ import torch
 from utils import *
 from agent import Agent
 #TODO select env
-from RL.env_binary_question import BinaryRecommendEnv
+from RL.env_multi_choice_question import MultiChoiceRecommendEnv
 from RL.RL_evaluate import dqn_evaluate
 from multi_interest import GraphEncoder
 import time
@@ -27,12 +27,14 @@ pid = os.getpid()
 print('pid : ',pid)
 warnings.filterwarnings("ignore")
 EnvDict = {
-    LAST_FM_STAR: BinaryRecommendEnv,
-    YELP_STAR: BinaryRecommendEnv,
+    LAST_FM_STAR: MultiChoiceRecommendEnv,
+    YELP_STAR: MultiChoiceRecommendEnv,
+    BOOK:MultiChoiceRecommendEnv,
     }
 FeatureDict = {
     LAST_FM_STAR: 'feature',
     YELP_STAR: 'feature',
+    BOOK:'feature'
 }
 
 Transition = namedtuple('Transition',

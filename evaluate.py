@@ -18,27 +18,24 @@ from utils import *
 from sum_tree import SumTree
 
 #TODO select env
-from RL.env_binary_question import BinaryRecommendEnv
-from RL.env_enumerated_question import EnumeratedRecommendEnv
+from RL.env_multi_choice_question import MultiChoiceRecommendEnv
 from RL.RL_evaluate import dqn_evaluate
 from RL_model import Agent, ReplayMemoryPER
-from gcn import GraphEncoder
+from multi_interest import GraphEncoder
 import time
 import warnings
 
 warnings.filterwarnings("ignore")
 EnvDict = {
-    LAST_FM: BinaryRecommendEnv,
-    LAST_FM_STAR: BinaryRecommendEnv,
-    YELP: EnumeratedRecommendEnv,
-    YELP_STAR: BinaryRecommendEnv
+    LAST_FM_STAR: MultiChoiceRecommendEnv,
+    YELP_STAR: MultiChoiceRecommendEnv,
+    BOOK:MultiChoiceRecommendEnv
     }
 
 FeatureDict = {
-    LAST_FM: 'feature',
     LAST_FM_STAR: 'feature',
-    YELP: 'large_feature',
-    YELP_STAR: 'feature'
+    YELP_STAR: 'feature',
+    BOOK:'feature'
 }
 
 

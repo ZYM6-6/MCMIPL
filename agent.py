@@ -17,7 +17,7 @@ from utils import *
 from sum_tree import SumTree
 
 #TODO select env
-from RL.env_binary_question import BinaryRecommendEnv
+from RL.env_multi_choice_question import MultiChoiceRecommendEnv
 from RL.RL_evaluate import dqn_evaluate
 from multi_interest import GraphEncoder
 import time
