@@ -19,7 +19,7 @@ dgl: 0.6.0
 We have released the data, including lastfm_start, yelp_star,Amazon-Book and MovieLens.
 
 If you would like to use your own dataset, you can reference the following step.
-1. Put the user-item interaction data into the  fold /data/<data_name>/UI_Interaction_data, you can see the detial in [SCPR](https://github.com/farrecall/SCPR).
+1. Put the user-item interaction data into the  fold /data/<data_name>, you can see the detail in [SCPR](https://github.com/farrecall/SCPR).
 2. Processing data: `python graph_init.py --data_name <data_name>`
 3. Use TransE [[OpenKE](https://github.com/thunlp/OpenKE)] to pretrain the graph embeddings. And put the pretrained embeddings under "/tmp/<data_name>/embeds/".
 
