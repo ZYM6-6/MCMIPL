@@ -34,20 +34,20 @@ If you would like to use your own dataset, you can reference the following step.
 If the code is used in your research, please star this repo and cite our paper as follows:
 ```
 @inproceedings{10.1145/3485447.3512088,
-author = {Zhang, Yiming and Wu, Lingfei and Shen, Qi and Pang, Yitong and Wei, Zhihua and Xu, Fangli and Long, Bo and Pei, Jian},
-title = {Multiple Choice Questions Based Multi-Interest Policy Learning for Conversational Recommendation},
-year = {2022},
-isbn = {9781450390965},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3485447.3512088},
-doi = {10.1145/3485447.3512088},
-booktitle = {Proceedings of the ACM Web Conference 2022},
-pages = {2153–2162},
-numpages = {10},
-keywords = {Conversational Recommendation, Reinforcement Learning, Graph Representation Learning},
-location = {Virtual Event, Lyon, France},
-series = {WWW '22}
+  author = {Zhang, Yiming and Wu, Lingfei and Shen, Qi and Pang, Yitong and Wei, Zhihua and Xu, Fangli and Long, Bo and Pei, Jian},
+  title = {Multiple Choice Questions Based Multi-Interest Policy Learning for Conversational Recommendation},
+  year = {2022},
+  isbn = {9781450390965},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3485447.3512088},
+  doi = {10.1145/3485447.3512088},
+  booktitle = {Proceedings of the ACM Web Conference 2022},
+  pages = {2153–2162},
+  numpages = {10},
+  keywords = {Conversational Recommendation, Reinforcement Learning, Graph Representation Learning},
+  location = {Virtual Event, Lyon, France},
+  series = {WWW '22}
 }
 
 
