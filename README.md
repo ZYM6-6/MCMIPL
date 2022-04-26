@@ -30,22 +30,25 @@ If you would like to use your own dataset, you can reference the following step.
 ## Evaluation
 `python evaluate.py --data_name <data_name> --load_rl_epoch <checkpoint_epoch>`
 
-<!-- ## Citation
+## Citation
 If the code is used in your research, please star this repo and cite our paper as follows:
 ```
-@inproceedings{DBLP:conf/sigir/DengL0DL21,
-  author    = {Yang Deng and
-               Yaliang Li and
-               Fei Sun and
-               Bolin Ding and
-               Wai Lam},
-  title     = {Unified Conversational Recommendation Policy Learning via Graph-based
-               Reinforcement Learning},
-  booktitle = {{SIGIR} '21: The 44th International {ACM} {SIGIR} Conference on Research
-               and Development in Information Retrieval, Virtual Event, Canada, July
-               11-15, 2021},
-  pages     = {1431--1441},
-  publisher = {{ACM}},
-  year      = {2021},
+@inproceedings{10.1145/3485447.3512088,
+author = {Zhang, Yiming and Wu, Lingfei and Shen, Qi and Pang, Yitong and Wei, Zhihua and Xu, Fangli and Long, Bo and Pei, Jian},
+title = {Multiple Choice Questions Based Multi-Interest Policy Learning for Conversational Recommendation},
+year = {2022},
+isbn = {9781450390965},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3485447.3512088},
+doi = {10.1145/3485447.3512088},
+booktitle = {Proceedings of the ACM Web Conference 2022},
+pages = {2153–2162},
+numpages = {10},
+keywords = {Conversational Recommendation, Reinforcement Learning, Graph Representation Learning},
+location = {Virtual Event, Lyon, France},
+series = {WWW '22}
 }
-``` -->
+
+
+```
