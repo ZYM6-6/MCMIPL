@@ -29,13 +29,15 @@ warnings.filterwarnings("ignore")
 EnvDict = {
     LAST_FM_STAR: MultiChoiceRecommendEnv,
     YELP_STAR: MultiChoiceRecommendEnv,
-    BOOK:MultiChoiceRecommendEnv
+    BOOK:MultiChoiceRecommendEnv,
+    MOVIE:MultiChoiceRecommendEnv
     }
 
 FeatureDict = {
     LAST_FM_STAR: 'feature',
     YELP_STAR: 'feature',
-    BOOK:'feature'
+    BOOK:'feature',
+    MOVIE:'feature'
 }
 
 
@@ -188,9 +190,8 @@ def main():
     #reset attr_num
     feature_name = FeatureDict[args.data_name]
     feature_length = len(kg.G[feature_name].keys())
-    print('dataset:{}, feature_length:{}'.format(args.data_name, feature_length))
+    print('dataset:{}'.format(args.data_name,))
     args.attr_num = feature_length  # set attr_num  = feature_length
-    print('args.attr_num:', args.attr_num)
     print('args.entropy_method:', args.entropy_method)
 
     dataset = load_dataset(args.data_name)

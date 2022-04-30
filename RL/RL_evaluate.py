@@ -11,7 +11,8 @@ from tqdm import tqdm
 EnvDict = {
         LAST_FM_STAR: MultiChoiceRecommendEnv,
         YELP_STAR: MultiChoiceRecommendEnv,
-        BOOK:MultiChoiceRecommendEnv
+        BOOK:MultiChoiceRecommendEnv,
+        MOVIE:MultiChoiceRecommendEnv
     }
 
 def dqn_evaluate(args, kg, dataset, agent, filename, i_episode):

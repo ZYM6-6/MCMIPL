@@ -8,15 +8,19 @@ from Graph_generate.yelp_data_process import YelpDataset
 from Graph_generate.yelp_graph import YelpGraph
 from Graph_generate.book_data_process import BookDataset
 from Graph_generate.book_graph import BookGraph
+from Graph_generate.movie_graph import MovieGraph
+from Graph_generate.movie_data_process import MovieDataset
 DatasetDict = {
     LAST_FM_STAR: LastFmStarDataset,
     YELP_STAR: YelpDataset,
     BOOK: BookDataset,
+    MOVIE:MovieDataset
 }
 GraphDict = {
     LAST_FM_STAR: LastFmGraph,
     YELP_STAR: YelpGraph,
     BOOK: BookGraph,
+    MOVIE:MovieGraph
 }
 def main():
     parser = argparse.ArgumentParser()
@@ -28,6 +32,13 @@ def main():
     if args.data_name=='BOOK':
         kg=BookGraph()
         with open('./tmp/book/kg.pkl','wb') as f:   
+            pickle.dump(kg,f)
+        dataset = DatasetDict[args.data_name]()
+        save_dataset(args.data_name, dataset)
+        return
+    elif args.data_name=='MOVIE':
+        kg=MovieGraph()
+        with open('./tmp/movie/kg.pkl','wb') as f:   
             pickle.dump(kg,f)
         dataset = DatasetDict[args.data_name]()
         save_dataset(args.data_name, dataset)

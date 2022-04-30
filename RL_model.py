@@ -30,11 +30,13 @@ EnvDict = {
     LAST_FM_STAR: MultiChoiceRecommendEnv,
     YELP_STAR: MultiChoiceRecommendEnv,
     BOOK:MultiChoiceRecommendEnv,
+    MOVIE:MultiChoiceRecommendEnv
     }
 FeatureDict = {
     LAST_FM_STAR: 'feature',
     YELP_STAR: 'feature',
-    BOOK:'feature'
+    BOOK:'feature',
+    MOVIE:'feature'
 }
 
 Transition = namedtuple('Transition',
@@ -146,8 +148,8 @@ def main():
     parser.add_argument('--hidden', type=int, default=100, help='number of samples')
     parser.add_argument('--memory_size', type=int, default=5000, help='size of memory ')
 
-    parser.add_argument('--data_name', type=str, default=YELP_STAR, choices=[ LAST_FM_STAR, YELP_STAR],
-                        help='One of { LAST_FM_STAR, YELP_STAR, BOOK}.')
+    parser.add_argument('--data_name', type=str, default=YELP_STAR, choices=[ LAST_FM_STAR, YELP_STAR,MOVIE],
+                        help='One of { LAST_FM_STAR, YELP_STAR, BOOK,MOVIE}.')
     parser.add_argument('--entropy_method', type=str, default='match', help='entropy_method is one of {entropy, weight entropy,match}')
     # Although the performance of 'weighted entropy' is better, 'entropy' is an alternative method considering the time cost.
     parser.add_argument('--max_turn', type=int, default=15, help='max conversation turn')

@@ -9,8 +9,6 @@ import ipdb
 from tkinter import _flatten
 from collections import Counter
 
-target_num=3
-
 
 class MultiChoiceRecommendEnv(object):
     def __init__(self, kg, dataset, data_name, embed, seed=1, max_turn=15, cand_num=10, cand_item_num=10, attr_num=20, mode='train', ask_num=1, entropy_way='weight entropy', fm_epoch=0,choice_num=2,fea_score="entropy"):
